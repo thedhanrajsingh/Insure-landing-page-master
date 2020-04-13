@@ -1,2 +1,2 @@
 # Insure-landing-page-master
-Mobile responsive w
+Mobile responsive landing page using Vanilla JS
