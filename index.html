@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <link rel="stylesheet" href="main.css" type="text/css" />
+
+  <script src="https://kit.fontawesome.com/6fa6438838.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img class="responsive-image" src="images/logo.svg" alt="" />
+    </figure>
+    <nav class="navbar topnav" id="myTopnav">
+      <a href="#How-we-work">How we work</a>
+      <a href="#Blog">Blog</a>
+      <a href="#Account">Account</a>
+      <a href="#View-plans"><button>View plans</button></a>
+
+      <!-- Trigger/Open The Modal -->
+      <img id="myBtn" src="images/icon-hamburger.svg" alt="" />
+      <img class="close" src="images/icon-close.svg" alt="" />
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <a href="#How-we-work">How we work</a>
+          <a href="#Blog">Blog</a>
+          <a href="#Account">Account</a>
+          <a href="#View-plans"><button>View plans</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="row">
+      <div class="bg-hero">
+        <article>
+          <hr />
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right
+            for you. Ensure you and your loved ones are protected.
+          </p>
+          <button>View plans</button>
+        </article>
+      </div>
+
+      <picture>
+        <source srcset="images/image-intro-mobile.jpg" media="(max-width: 768px)" />
+        <source srcset="images/image-intro-desktop.jpg" />
+        <img srcset="default.jpg" alt="My default image" />
+      </picture>
+    </div>
+  </section>
+  <!--Hero Section-->
+
+  <section id="we-re-different">
+    <hr />
+    <h2>We’re different</h2>
+    <div class="row-2">
+      <article>
+        <img src="images/icon-snappy-process.svg" alt="" />
+        <h3>Snappy Process</h3>
+        <p>
+          Our application process can be completed in minutes, not hours.
+          Don’t get stuck filling in tedious forms.
+        </p>
+      </article>
+      <article>
+        <img src="images/icon-affordable-prices.svg" alt="" />
+        <h3>Affordable Prices</h3>
+        <p>
+          We don’t want you worrying about high monthly costs. Our prices may
+          be low, but we still offer the best coverage possible.
+        </p>
+      </article>
+      <article>
+        <img src="images/icon-people-first.svg" alt="" />
+        <h3>People First</h3>
+        <p>
+          Our plans aren’t full of conditions and clauses to prevent payouts.
+          We make sure you’re covered when you need it.
+        </p>
+      </article>
+    </div>
+  </section>
+  <!--We are different Section-->
+
+  <section id="call-to-action">
+    <div class="bg-call-to-action">
+      <h2>Find out more about how we work</h2>
+      <div>
+        <button>How we work</button>
+      </div>
+    </div>
+  </section>
+  <!--Call to Action Section-->
+
+  <footer>
+    <div class="bg-footer">
+      <div class="footer-nav">
+        <figure>
+          <img src="images/logo.svg" alt="" />
+        </figure>
+        <nav>
+          <a class="facebook" href="#facebook"><i class="fab fa-facebook-square"></i></a>
+          <a href="#twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#pinterest"><i class="fab fa-pinterest"></i></a>
+          <a href="#instagram"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+      <hr />
+      <div class="footer-nav-b">
+        <nav>
+          <h4>Our company</h4>
+          <a href="#">How we work</a>
+          <a href="#">Why Insure?</a>
+          <a href="#">View plans</a>
+          <a href="#">Reviews</a>
+        </nav>
+        <nav>
+          <h4>Help me</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Cookies</a>
+        </nav>
+        <nav>
+          <h4>Contact</h4>
+          <a href="#">Sales</a>
+          <a href="#">Support</a>
+          <a href="#">Live chat</a>
+        </nav>
+        <nav>
+          <h4>Others</h4>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Licenses</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="#">Dhanraj Singh</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
